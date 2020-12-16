@@ -2,4 +2,63 @@ body {
 	background-color: yellow;
 	font-size: 18px;
 	color: black;
+	font-family: arial;
+}
+
+li {
+	font-size:12px;
+/*	font-family:courier; */
+	margin-left:  15px;
+}
+			
+li.heading {
+	font-weight: bold;
+	font-size:16px;
+	margin-left:  5px;
+}
+			
+li.subhead {
+	font-weight: bold;
+	font-size:14px;
+	text-decoration: underline;
+}		
+
+nav {
+	display: block;
+	text-decoration: none;
+	background: black;
+	color: yellow;
+	width: 100%;
+}
+
+nav a{
+	color: yellow;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: black;
+	background: yellow;
+}
+
+.syllabus {
+	font-family: Arial;
+}
+
+.center{
+	display: block;
+	margin: auto;
+	text-align:center;
+}
+
+.floatright{
+	display: block;
+	float:right;
+	width:33%;
+}
+
+.floatleft{
+	display:block;
+	float:left;
+	width:33%;
 }

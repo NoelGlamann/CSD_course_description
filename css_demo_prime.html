@@ -7,126 +7,122 @@
 	<head>
 		<title>CSS Demo</title>
 		<link rel="stylesheet" href="CSS_demo.css">
-		<style>
-			li {
-				font-size:12px;
-				font-family:courier;
-				margin-left:  15px;
-			}
-			
-			li.heading {
-				font-weight: bold;
-				font-size:16px;
-				margin-left:  5px;
-			}
-			
-			li.subhead {
-				font-weight: bold;
-				font-size:14px;
-				text-decoration: underline;
-			}				
-		</style>
 	</head>
 	<body>
-		<img src="./CSDimg.jpg"/>
-		<h1>Program Overview</h1>
-		<p style = "background:white;">This class will teach you the fundamentals of 
-		Computer Programming and Web development. It
-		can be taken as a one-year program, but the full course 
-		of instruction covers 2 years. One year emphasises 
-		traditional programming, while to other focuses on 
-		Web development.</p>
-		<p> This is a second paragraph for future info. </p>
 		
-		<h1>Program Breakdown</h1>
-		<table>
-			<tr>
-				<th>Year A</th>
-				<th>Year B</th>
-			</tr>
-			<tr>
-				<td>
-					<ul>
-						<li class="heading">Textbooks</li>
-						<li>Grok Learning Website</li>
-						<li>The Linux Command Line</li>
-						<li>The Absolute Beginner's Guide to Python Programming</li>
-						<li>Android Programming The Big Nerd Ranch Guide</li>
-						<li class="heading">Linux Operating System</li>
-						<li>History and Terminology of Linux</li>
-						<li>Linux Command Line Basics</li>
-						<li>Open Source Software Concepts</li>
-						<li class="heading">Program Design</li>
-						<li>Software Development Cycle</li>
-						<li>Design Tools - Flowcharts and Pseudocode</li>
-						<li>Programming Languages Overview</li>
-						<li>Procedural Programming Elements</li>
-						<li>Structured Design Principles</li>
-						<li>GitHub Version Control System</li>
-						<li>Documentation - Best Practices</li>	
-						<li>Collaborative Programming</li>
-						<li>Virtual Machines - Concepts and Usage</li>
-						<li class="heading">Python Programming</li>
-						<li>IDE Fundamentals	</li>
-						<li>Input and Output Statements</li>
-						<li>Making Calculations</li>
-						<li>Selection Structures</li>	
-						<li>Loop Structures</li>
-						<li>Program Data Handling</li>
-						<li>Functions</li>
-						<li>File Storage</li>
-						<li>Exception Handling</li>
-						<li>GUI Design using tkinter</li>
-						<li>Mobile App Development withKivy</li>
-						<li>Lab Projects	</li>
-						<li  class="heading">Final Project	</li>
-					</ul>
-				</td>
-				<td>
-					<ul>
-						<li  class="heading">Textbooks</li>
-						<li>HTML5, CSS, and Javascript 6th edition</li>
-						<li>Database Systems Design, Implementation, & Management 13th editiion</li>
-						<li  class="heading">Introductory Activities</li>
-						<li>Intro To algorithms</li>
-						<li>Intro to Design</li>
-						<li>Linux Basics</li>
-						<li  class="heading">SQL and Database Administration</li>
-						<li>Database Concepts</li>
-						<li>Database Systems</li>
-						<li>Data Models</li>
-						<li>Design Concepts</li>
-						<li>Relational Database Model</li>
-						<li>Entity Relationship Modeling</li>
-						<li>Database Implementation</li>
-						<li>Intro to Structured Query Language(SQL)</li>
-						<li>Advanced SQL</li>
-						<li>Database Design</li>
-						<li  class="heading">HTML</li>
-						<li class="subhead">HTML Level 1</li>
-						<li>Getting Started with HTML5</li>
-						<li>Getting Started with CSS</li>
-						<li class="subhead">HTML Level 2</li>
-						<li>Designing a page layout</li>
-						<li>Graphic Design with CSS</li>
-						<li>Designing for the Mobile Web</li>
-						<li class="subhead">HTML Level 3</li>
-						<li>Working with Tables and Columns</li>
-						<li>Designing a Web Form</li>
-						<li>Enhancing a Website with Multimedia</li>
-						<li>Getting Started with Javascript</li>
-						<li>Exploring Arrays, Loops, and Conditionals</li>
-						<li>Working with Events and Styles</li>
-						<li>Working with Document Nodes and Style Sheets</li>
-						<li>Programming for Web Forms</li>
-						<li>Exploring Object-Based Programming</li>
-						<li  class="heading">Portfolio Website Final Project	</li>
-					</ul>
-				</td>
-			</tr>
-		</table>
-		<h1>Reviews</h1>
+		<!--NAVIGATION-->
 		<div>
+			<nav>
+			<h3>Navigation</h3>
+				<a href="./index_AM.html">Home</a>
+				<a href="./css_demo_prime.html">CSD</a>
+			</nav>
+		</div>
+	
+		<!--HEADER-->
+		<img src="./CSDimg.jpg" class ="center"/>
+		
+		<!--OVERVIEW-->
+		<div>
+			<h1>Program Overview</h1>
+			<p>This class will teach you the fundamentals of 
+			Computer Programming and Web development. It
+			can be taken as a one-year program, but the full course 
+			of instruction covers 2 years. One year emphasises 
+			traditional programming, while to other focuses on 
+			Web development.</p>
+			<p> This is a second paragraph for future info. </p>
+		</div>
+		
+		<!--YEAR A-->
+		<div class = "syllabus" class="floatleft">
+			<h1>Year A </h1>
+			
+			<ul>
+				<li class="heading">Textbooks</li>
+				<li>Grok Learning Website</li>
+				<li>The Linux Command Line</li>
+				<li>The Absolute Beginner's Guide to Python Programming</li>
+				<li>Android Programming The Big Nerd Ranch Guide</li>
+				<li class="heading">Linux Operating System</li>
+				<li>History and Terminology of Linux</li>
+				<li>Linux Command Line Basics</li>
+				<li>Open Source Software Concepts</li>
+				<li class="heading">Program Design</li>
+				<li>Software Development Cycle</li>
+				<li>Design Tools - Flowcharts and Pseudocode</li>
+				<li>Programming Languages Overview</li>
+				<li>Procedural Programming Elements</li>
+				<li>Structured Design Principles</li>
+				<li>GitHub Version Control System</li>
+				<li>Documentation - Best Practices</li>	
+				<li>Collaborative Programming</li>
+				<li>Virtual Machines - Concepts and Usage</li>
+				<li class="heading">Python Programming</li>
+				<li>IDE Fundamentals	</li>
+				<li>Input and Output Statements</li>
+				<li>Making Calculations</li>
+				<li>Selection Structures</li>	
+				<li>Loop Structures</li>
+				<li>Program Data Handling</li>
+				<li>Functions</li>
+				<li>File Storage</li>
+				<li>Exception Handling</li>
+				<li>GUI Design using tkinter</li>
+				<li>Mobile App Development withKivy</li>
+				<li>Lab Projects	</li>
+				<li  class="heading">Final Project	</li>
+			</ul>
+		</div>	
+		
+		<!--YEAR B-->
+		<div class = "syllabus floatright">
+			<h1>Year B </h1>
+			
+			<ul>
+				<li  class="heading">Textbooks</li>
+				<li>HTML5, CSS, and Javascript 6th edition</li>
+				<li>Database Systems Design, Implementation, & Management 13th editiion</li>
+				<li  class="heading">Introductory Activities</li>
+				<li>Intro To algorithms</li>
+				<li>Intro to Design</li>
+				<li>Linux Basics</li>
+				<li  class="heading">SQL and Database Administration</li>
+				<li>Database Concepts</li>
+				<li>Database Systems</li>
+				<li>Data Models</li>
+				<li>Design Concepts</li>
+				<li>Relational Database Model</li>
+				<li>Entity Relationship Modeling</li>
+				<li>Database Implementation</li>
+				<li>Intro to Structured Query Language(SQL)</li>
+				<li>Advanced SQL</li>
+				<li>Database Design</li>
+				<li  class="heading">HTML</li>
+				<li class="subhead">HTML Level 1</li>
+				<li>Getting Started with HTML5</li>
+				<li>Getting Started with CSS</li>
+				<li class="subhead">HTML Level 2</li>
+				<li>Designing a page layout</li>
+				<li>Graphic Design with CSS</li>
+				<li>Designing for the Mobile Web</li>
+				<li class="subhead">HTML Level 3</li>
+				<li>Working with Tables and Columns</li>
+				<li>Designing a Web Form</li>
+				<li>Enhancing a Website with Multimedia</li>
+				<li>Getting Started with Javascript</li>
+				<li>Exploring Arrays, Loops, and Conditionals</li>
+				<li>Working with Events and Styles</li>
+				<li>Working with Document Nodes and Style Sheets</li>
+				<li>Programming for Web Forms</li>
+				<li>Exploring Object-Based Programming</li>
+				<li  class="heading">Portfolio Website Final Project	</li>
+			</ul>
+		</div>	
+		
+		<!--REVIEWS-->
+		<div class ="center">
+			<h1>Reviews</h1>
 			<q>Totally the best class I ever skipped!</q>
 			<cite>- Ferris Bueller</cite>
 		</div>
